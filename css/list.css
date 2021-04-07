@@ -1,0 +1,94 @@
+.header .w {
+  position: relative;
+}
+.sk {
+  position: absolute;
+  left: 185px;
+  top: 40px;
+  border-left: 2px solid #b1191a;
+  padding-left: 15px;
+}
+.nav_left {
+  width: 360px;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 4px;
+}
+.nav_left li {
+  float: left;
+}
+.nav_left li a {
+  float: left;
+  height: 47px;
+  padding: 0 26px;
+  color: #000;
+}
+.nav_right li a {
+  font-size: 14px;
+  padding: 0 23px;
+}
+
+.list_hd {
+  height: 120px;
+}
+.list_bd ul {
+  width: 1216px;
+  margin-top: 15px;
+  margin-bottom: 150px;
+}
+.list_bd li {
+  float: left;
+  overflow: hidden;
+  width: 290px;
+  height: 458px;
+  border: 1px solid transparent;
+
+
+  margin-right: 14px;
+  margin-bottom: 12px;
+}
+.list_bd li:hover {
+  border: 1px solid #b1191a;
+}
+
+.list_bd li img {
+  width: 100%;
+}
+.list_hb_content {
+  padding: 10px 12px;
+}
+.list_hb_content .price {
+  margin: 1px 0;
+}
+.list_hb_content .price strong {
+  font-size: 22px;
+  color: #e60012;
+}
+.sell .sell_bar {
+  display: inline-block;
+  width: 134px;
+  height: 12px;
+  border-radius: 5px;
+  border: solid 1px #e12228;
+  margin: 0 5px;
+  overflow: hidden;
+}
+.sell .sell_bar i {
+  float: left;
+  width: 87%;
+  height: 12px;
+  background-color: #e12228;
+}
+.sell em {
+  color: #e12228;
+}
+.list_bd li input {
+  width: 290px;
+  height: 52px;
+  line-height: 52px;
+  background-color: #b1191a;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+}
